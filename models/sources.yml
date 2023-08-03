@@ -8,11 +8,11 @@ sources:
     tables:
       - name: hockey_standings
 
-  - name: aurora_postgres # this can be whatever I want
-    schema: connector_name_shemaA_name # Connector and first schema name for connector with MULTIPLE SCHEMAS
+  - name: sql_server # this can be whatever I want
+    schema: sql_server_animal_crossing # Connector and first schema name for connector with MULTIPLE SCHEMAS
     tables:
-      - name: us_states
-      - name: us_states_rollup
+      - name: accessories
+      - name: achievements
         description: a rollup of the states table
       - name: us_counties
       - name: us_counties_recent
